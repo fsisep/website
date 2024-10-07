@@ -1,0 +1,9 @@
+#team {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
