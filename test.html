@@ -46,14 +46,28 @@
             <h1>Our Sponsors</h1>
             <div class="sponsors-div">
                 <div class="sponsors-menu">
-                    <div class="sponsor">Platinum</div>
-                    <div class="sponsor">Gold</div>
-                    <div class="sponsor">Silver</div>
-                    <div class="sponsor">Bronze</div>
-                    <div class="sponsor">Partner</div>
+                    <button class="sponsor-type" data-label="Platinum" onclick="openTab(event, this)" id="default"><h2>Platinum</h2></button>
+                    <button class="sponsor-type" data-label="Gold" onclick="openTab(event, this)"><h2>Gold</h2></button>
+                    <button class="sponsor-type" data-label="Silver" onclick="openTab(event, this)"><h2>Silver</h2></button>
+                    <button class="sponsor-type" data-label="Bronze" onclick="openTab(event, this)"><h2>Bronze</h2></button>
+                    <button class="sponsor-type" data-label="Partner" onclick="openTab(event, this)"><h2>Partner</h2></button>
                 </div>
                 <div class="sponsors-list">
-
+                    <div id="Platinum" class="sponsor-list">
+                        <h2>Platinum Sponsors</h2>
+                    </div>
+                    <div id="Gold" class="sponsor-list">
+                        <h2>Gold Sponsors</h2>
+                    </div>
+                    <div id="Silver" class="sponsor-list">
+                        <h2>Silver Sponsors</h2>
+                    </div>
+                    <div id="Bronze" class="sponsor-list">
+                        <h2>Bronze Sponsors</h2>
+                    </div>
+                    <div id="Partner" class="sponsor-list">
+                        <h2>Partners</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,15 +75,20 @@
         <div class="page" id="contacts" data-label="Contacts">
             <div class="info">
                 <div class="info-left">
-                    <h2>Morada:</h2>
-                    <h4>R. Dr. António Bernardino de Almeida, 431 <br> 4249-015 Porto</h4>
-                    <!-- inserir iFrame de Google Maps -->
-                    <br>
-                    <h2>Telefone:</h2>
-                    <h4>+351 228340500</h4>
-                    <br>
-                    <h2>Email:</h2>
-                    <h4>geral@prevent-cancer.pt</h4>
+                    <div>
+                        <h2>Morada:</h2>
+                        <h4>R. Dr. António Bernardino de Almeida, 431 <br> 4249-015 Porto</h4>
+                        <!-- inserir iFrame de Google Maps -->
+                    </div>
+                    <div>
+                        <h2>Telefone:</h2>
+                        <h4>+351 228340500</h4>
+                    </div>
+                    
+                    <div>
+                        <h2>Email:</h2>
+                        <h4>geral@prevent-cancer.pt</h4>
+                    </div>
                 </div>
                 <div class="info-right">
                     <h3 style="width: 100%; text-align: center;">Contact Us</h3>
@@ -87,6 +106,8 @@
             </div>
         </div>
     </div>
-    <script src="nav.js"></script>
+    <script src="assets/src/js/index/nav.js"></script>
+    <script src="assets/src/js/index/tabs.js"></script>
+    <script src="assets/src/js/index/sponsors.js"></script>
 </body>
 </html>
