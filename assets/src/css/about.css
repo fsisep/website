@@ -75,7 +75,7 @@
         width: 80vw;
         height: 70vh;
         background-color: rgba(0, 0, 0, 0.5);
-        color: rgba(255, 255, 255, 1);
+        color: #ffffff;
         padding: 1vh 5vw;
         border-radius: 15px;
         display: flex;
@@ -88,6 +88,14 @@
         width: 80vw;
         height: 30vh;
         border-radius: 15px;
+    }
+
+    .about-text h1 {
+        font-size: x-large;
+    }
+
+    .about-text p {
+        font-size: medium;
     }
     
     .about-text-p {
