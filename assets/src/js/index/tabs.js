@@ -41,7 +41,7 @@ function fetchSponsors(tier) {
         if(items.length == 0) {
             let str = "";
             str = tier.charAt(0).toUpperCase() + tier.slice(1);
-            container.innerHTML += `<h1>No ${str} sponsors at the moment!</h1>`;
+            container.innerHTML += `<h2>No ${str} sponsors at the moment!</h2>`;
         }else {
             container.innerHTML += items.join("");
         }
