@@ -60,6 +60,15 @@
     flex-direction: column;
 }
 
+.info-space {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+
 .contact-form {
     width: 100%;
     height: 60vh;
@@ -120,6 +129,16 @@
 
     .info-left .contact-button {
         display: block;
+    }
+
+    .info-space h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .info-space h4 {
+        margin: 0;
+        padding: 0;
     }
 
 }
