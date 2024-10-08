@@ -62,8 +62,8 @@
     padding: 0;
 }
 
-.numbers  p  {
-    font-size: 1vw;
+.numbers  h3  {
+    font-size: 2vw;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -73,15 +73,15 @@
 @media only screen and (orientation: portrait) {
     .about-div {
         width: 80vw;
-        height: 70vh;
+        height: 80vh;
         background-color: rgba(0, 0, 0, 0.5);
         color: rgba(255, 255, 255, 1);
-        padding: 2vw 5vh;
+        padding: 1vh 5vw;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     
     .about-text {
@@ -108,6 +108,6 @@
 
     .numbers {
         width: 30vw;
-        height: 15vh;
+        height: 12vh;
     }
 }

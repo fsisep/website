@@ -30,6 +30,7 @@
 .main-nav-link {
     height: 100%;
     width: 100%;
+    font-size: large;
     color: white;
     display: flex;
     text-decoration: none;
@@ -76,6 +77,10 @@
     .main-nav{
         width: 90vw;
         height: 8vh;
+    }
+
+    .main-nav-link {
+        font-size: medium;
     }
 }
 
