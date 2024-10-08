@@ -19,7 +19,7 @@ function fetchSponsors(tier) {
 
     container.innerHTML = "";
 
-    fetch("../../../assets/sponsors/sponsors.xml", {mode: 'cors'}).then(response => {
+    fetch("assets/sponsors/sponsors.xml", {mode: 'cors'}).then(response => {
         return response.text();
     }).then(xmlString => {
         const xmlDocument = new DOMParser().parseFromString(xmlString, "text/xml");
