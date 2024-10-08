@@ -32,7 +32,7 @@ function fetchSponsors(tier) {
             return `
             <div class="sponsor">
                 <a href="${url}"  target="_blank">
-                    <img class="sponsor-image" src="../../../assets/sponsors/${logo}"></img>
+                    <img class="sponsor-image" src="assets/sponsors/${logo}"></img>
                 </a>
             </div>
             `;
