@@ -59,3 +59,23 @@
     height: 90%;
     object-fit: contain;
 }
+
+@media only screen and (orientation: portrait) {
+    .main-nav li:first-child{
+        display: none;
+    }
+
+    .main-nav-option:nth-child(2) .main-nav-link {
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .main-nav-option:hover:nth-child(2) .main-nav-link {
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .main-nav{
+        width: 90vw;
+        height: 8vh;
+    }
+}
+

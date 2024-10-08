@@ -29,8 +29,8 @@
 
         <div class="page" id="home" data-label="Home">
             <div class="home-text">
-                <h1>Formula Student ISEP</h1>
-                <h3 style="width: 40vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+                <h1 class="home-title">Formula Student ISEP</h1>
+                <h3 class="home-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
             </div>
         </div>
 
@@ -46,28 +46,13 @@
             <h1>Our Sponsors</h1>
             <div class="sponsors-div">
                 <div class="sponsors-menu">
-                    <button class="sponsor-type" data-label="Platinum" onclick="openTab(event, this)" id="default"><h2>Platinum</h2></button>
-                    <button class="sponsor-type" data-label="Gold" onclick="openTab(event, this)"><h2>Gold</h2></button>
-                    <button class="sponsor-type" data-label="Silver" onclick="openTab(event, this)"><h2>Silver</h2></button>
-                    <button class="sponsor-type" data-label="Bronze" onclick="openTab(event, this)"><h2>Bronze</h2></button>
-                    <button class="sponsor-type" data-label="Partner" onclick="openTab(event, this)"><h2>Partner</h2></button>
+                    <button class="sponsor-type" data-label="platinum" onclick="openTab(event, this)" id="default"><h2>Platinum</h2></button>
+                    <button class="sponsor-type" data-label="gold" onclick="openTab(event, this)"><h2>Gold</h2></button>
+                    <button class="sponsor-type" data-label="silver" onclick="openTab(event, this)"><h2>Silver</h2></button>
+                    <button class="sponsor-type" data-label="bronze" onclick="openTab(event, this)"><h2>Bronze</h2></button>
+                    <button class="sponsor-type" data-label="partner" onclick="openTab(event, this)"><h2>Partner</h2></button>
                 </div>
-                <div class="sponsors-list">
-                    <div id="Platinum" class="sponsor-list">
-                        <h2>Platinum Sponsors</h2>
-                    </div>
-                    <div id="Gold" class="sponsor-list">
-                        <h2>Gold Sponsors</h2>
-                    </div>
-                    <div id="Silver" class="sponsor-list">
-                        <h2>Silver Sponsors</h2>
-                    </div>
-                    <div id="Bronze" class="sponsor-list">
-                        <h2>Bronze Sponsors</h2>
-                    </div>
-                    <div id="Partner" class="sponsor-list">
-                        <h2>Partners</h2>
-                    </div>
+                <div class="sponsor-list" id="sponsor-space">
                 </div>
             </div>
         </div>
@@ -75,39 +60,38 @@
         <div class="page" id="contacts" data-label="Contacts">
             <div class="info">
                 <div class="info-left">
-                    <div>
-                        <h2>Morada:</h2>
+                    <div  class="info-space">
+                        <h2>Address:</h2>
                         <h4>R. Dr. António Bernardino de Almeida, 431 <br> 4249-015 Porto</h4>
                         <!-- inserir iFrame de Google Maps -->
                     </div>
-                    <div>
-                        <h2>Telefone:</h2>
+                    <div  class="info-space">
+                        <h2>Phone:</h2>
                         <h4>+351 228340500</h4>
                     </div>
-                    
-                    <div>
+                    <div class="info-space">
                         <h2>Email:</h2>
-                        <h4>geral@prevent-cancer.pt</h4>
+                        <h4>fsisep@gmail.com</h4>
                     </div>
+
+                    <button class="contact-button">Contact Us</button>
                 </div>
                 <div class="info-right">
                     <h3 style="width: 100%; text-align: center;">Contact Us</h3>
                     <form action="" class="contact-form">
-                        <label for="name">Nome:</label><br>
-                        <input type="text" id="name" name="name" placeholder="Nome"><br>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Name"><br>
                         <label for="email">Email:</label><br>
                         <input type="text" id="email" name="email" placeholder="Email"><br>
-                        <label for="message">Text:</label><br>
-                        <textarea rows="10" id="message" name="message" placeholder="Menssagem..."></textarea><br>
+                        <label for="message">Message:</label><br>
+                        <textarea rows="10" id="message" name="message" placeholder="Message..."></textarea><br>
                         <br>
-                        <input type="submit" value="Login" style="font-weight: bold;">
+                        <input type="submit" value="Send Message" style="font-weight: bold;">
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    <script src="assets/src/js/index/nav.js"></script>
     <script src="assets/src/js/index/tabs.js"></script>
-    <script src="assets/src/js/index/sponsors.js"></script>
 </body>
 </html>

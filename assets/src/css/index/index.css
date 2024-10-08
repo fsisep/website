@@ -64,6 +64,11 @@ body {
     align-items: end;
 }
 
+.home-p {
+    display: flex;
+    width: 50vw;
+}
+
 .home-btn {
     width: 15vw;
     height: 10vh;
@@ -85,4 +90,10 @@ body {
     -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     cursor: pointer;
+}
+
+@media only screen and (orientation: portrait) {
+    .home-p {
+        display: none;
+    }
 }

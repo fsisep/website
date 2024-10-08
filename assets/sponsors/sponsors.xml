@@ -1,0 +1,47 @@
+<sponsor>
+    <silver>
+        <name>Addvolt</name>
+        <logo>Logo_Addvolt.png</logo>
+        <url>https://www.addvolt.com</url>
+    </silver>
+    <silver>
+        <name>Bender</name>
+        <logo>Logo_Bender.png</logo>
+        <url>https://www.bender.de/en/</url>
+    </silver>
+    <partner>
+        <name>Altium</name>
+        <logo>Logo_Altium.png</logo>
+        <url>https://www.altium.com</url>
+    </partner>
+    <partner>
+        <name>Caetano Sport</name>
+        <logo>Logo_CaetanoSport.png</logo>
+        <url>https://caetanoretail.pt/audi/</url>
+    </partner>
+    <partner>
+        <name>DEE</name>
+        <logo>Logo_DEE.png</logo>
+        <url>https://www.dee.isep.ipp.pt</url>
+    </partner>
+    <partner>
+        <name>Heads Motorsport</name>
+        <logo>Logo_headsmotorsport.png</logo>
+        <url>https://headsmotorsport.com</url>
+    </partner>
+    <partner>
+        <name>Isabellenhütte</name>
+        <logo>Logo_Isabellenhütte.png</logo>
+        <url>https://www.isabellenhuette.de/en/</url>
+    </partner>
+    <partner>
+        <name>Math Works</name>
+        <logo>Logo_MathWorks.png</logo>
+        <url>https://www.mathworks.com</url>
+    </partner>
+    <bronze>
+        <name>Paróquia de Machico</name>
+        <logo>Logo_Paróquia_Machico.png</logo>
+        <url>https://paroquiamachico.pt</url>
+    </bronze>
+</sponsor>
