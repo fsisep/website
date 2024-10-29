@@ -1,7 +1,7 @@
 @import "colors.css";
 
 #sponsors {
-    background-color: brown;
+    background-color: var(--black);
     color: #ffffff;
     display: flex;
     flex-direction: column;

@@ -1,8 +1,8 @@
 @import "colors.css";
 
 #contacts {
-    background-color: rgb(25, 25, 25);
-    color: rgba(255, 255, 255, 1);
+    background-color: var(--black);
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;

@@ -39,7 +39,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .main-nav-link:hover {

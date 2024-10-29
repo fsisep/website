@@ -1,7 +1,7 @@
 @import "colors.css";
 
 #team {
-    background-color: rgb(25, 25, 25);
+    background-color: var(--black);
     color: white;
     display: flex;
     flex-direction: column;
