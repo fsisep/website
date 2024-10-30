@@ -1,7 +1,9 @@
+@import "colors.css";
+
 .main-nav{
-    position: fixed;
-    width: 80vw;
-    height: 8vh;
+    position: absolute;
+    width: 60vw;
+    height: 6vh;
     top: 0;
     padding: 0;
     list-style-type: none;
@@ -30,7 +32,7 @@
 .main-nav-link {
     height: 100%;
     width: 100%;
-    font-size: large;
+    font-size: medium;
     color: white;
     display: flex;
     text-decoration: none;
@@ -47,6 +49,14 @@
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }
 
+.main-nav-option:first-child .main-nav-link {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.main-nav-option:hover:first-child  .main-nav-link {
+    border-radius: 15px 0px 0px 15px;
+}
+
 .main-nav-option:last-child .main-nav-link {
     border-radius: 0px 15px 15px 0px;
 }
@@ -55,25 +65,8 @@
     border-radius: 0px 15px 15px 0px;
 }
 
-.logo {
-    width: 90%;
-    height: 90%;
-    object-fit: contain;
-}
 
 @media only screen and (orientation: portrait) {
-    .main-nav li:first-child{
-        display: none;
-    }
-
-    .main-nav-option:nth-child(2) .main-nav-link {
-        border-radius: 15px 0px 0px 15px;
-    }
-
-    .main-nav-option:hover:nth-child(2) .main-nav-link {
-        border-radius: 15px 0px 0px 15px;
-    }
-
     .main-nav{
         width: 90vw;
         height: 8vh;
